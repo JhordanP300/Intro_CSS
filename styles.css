@@ -1,0 +1,90 @@
+*{
+    box-sizing: border-box;
+}
+html{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    background-color: aquamarine;
+    margin: 0;
+}
+header, footer {
+    background-color: rgba(240, 128, 128, 0.2);
+}
+body{
+    background-color: blanchedalmond;
+    margin: 0 40px;
+    background-image: url(images/fondo_sabana_africana.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+nav{
+    background-color: gray;
+    height: 100px;
+}
+main{
+    /* background-color: royalblue; */
+    /* height: 100vh; */
+}
+image{
+    width: 100%;
+}
+.row{
+    display: flex;
+    /* height: 150px; */
+}
+.izquierda{
+    background-color: mediumseagreen;
+    width: 50%;
+}
+.derecha{
+    background-color: gold;
+    width: 50%;
+}
+.logo{
+    margin-right: 30px;
+}
+.logo img{
+    width: 150px;
+    border-radius: 50%;
+}
+.galeria{
+    background-color: rgba(59, 35, 143, 0.7);
+    margin: 15px 0;
+    padding: 15px;
+    display: flex;
+    justify-content: center;
+}
+.galeria img {
+    width: 200px;
+    height: 200px;
+    border-radius: 30px;
+    border: 2px dashed red;
+}
+.galeria .diferente{
+    border-radius: 50%;
+    border: 3px dotted blue;
+}
+nav{
+    background-color: rgba(rgb(0, 0, 0.2), green, blue, alpha);
+    /* height: 100px; */
+}
+nav a{
+    background-color: rgb(32, 203, 255);
+    color: white;
+    border-radius: 25px;
+    padding: 10px;
+    text-decoration: none;
+}
+nav a:hover{
+    background-color: gold;
+}
+p{
+    color: white;
+}
+.derecha p{
+    color: black;
+}
+.izquierda p{
+    color: black;
+}
